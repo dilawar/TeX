@@ -1,4 +1,5 @@
-INSTALL_DIR=$(TEXMFHOME)/tex/latex/custom
+TEXMFHOME ?= $(HOME)/texmf
+INSTALL_DIR = $(TEXMFHOME)/tex/latex/custom
 
 all : install
 
